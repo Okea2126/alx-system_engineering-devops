@@ -1,2 +1,2 @@
 #!/bin/bash
--type d -exec chmod 775 {} \
+chmod -R ugo+X . 
